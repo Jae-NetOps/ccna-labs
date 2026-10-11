@@ -1,0 +1,13 @@
+# Subnetting Notes
+
+## Key Ideas
+- An IPv4 address is 32 bits, split into 4 octets
+- The subnet mask shows which part is the network and which is the host
+- /24 = 255.255.255.0 = 256 addresses, 254 usable hosts
+
+## Formulas
+- Usable hosts = 2^(host bits) - 2
+- Number of subnets = 2^(borrowed bits)
+
+## Practice
+- 192.168.1.0/26 →
