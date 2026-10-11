@@ -10,4 +10,5 @@
 - Number of subnets = 2^(borrowed bits)
 
 ## Practice
-- 192.168.1.0/26 →
+- 192.168.1.0/26 → - 192.168.1.0/26 → mask 255.255.255.192, 64 addresses, 62 usable hosts
+  - Subnets: .0, .64, .128, .192
